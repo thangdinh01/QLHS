@@ -23,7 +23,7 @@ def validate_login():
     username = entry_username.get()
     password = entry_password.get()
 
-    if username == "admin" and password == "admin":
+    if username == "admin" and password == "1":
         messagebox.showinfo("Đăng nhập", "Đăng nhập thành công!")
         open_homepage()
     else:
